@@ -51,7 +51,7 @@ const FullSlider = () => {
       autoPlaySpeed={3000}
       centerMode={isMobileOnly ? false : true}
       className=""
-      containerClass="mt-20 p-4 sm:p-0"
+      containerClass="p-4 sm:p-0 select-none"
       dotListClass="relative gap-2 justify-start mt-6 pl-4 lg:hidden"
       draggable={isDesktop ? false : true}
       focusOnSelect={false}

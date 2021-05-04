@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 const Card = () => {
   return (
-    <div className="min-h-full  overflow-hidden relative flex flex-col space-y-1">
+    <div className="min-h-full  overflow-hidden relative flex flex-col space-y-2">
       <Link href="/abc">
         <a className="overflow-hidden">
           <Image
@@ -11,12 +11,12 @@ const Card = () => {
             height="130"
             width="100"
             layout="responsive"
-            className="object-cover rounded-xl"
+            className="object-cover rounded-xl "
           />
         </a>
       </Link>
 
-      <h2 className="text-md whitespace-nowrap  overflow-ellipsis">
+      <h2 className="text-md whitespace-nowrap  overflow-ellipsis ">
         Tokyo Ghoul asdasdasdasd
       </h2>
       <ul className="flex gap-2 text-xs">

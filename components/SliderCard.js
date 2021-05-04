@@ -10,8 +10,8 @@ const SliderCard = () => {
         className="object-cover filter brightness-75"
       />
       <div className="absolute bottom-0 left-0 right-0 p-4">
-        <h2 className="font-medium group-hover:text-secondary text-2xl">
-          Tokyo Ghoul
+        <h2 className="font-medium group-hover:text-secondary text-2xl font-heading mb-2">
+          The Art of Political
         </h2>
         <ul className="flex gap-4 text-sm">
           <li>Action</li>

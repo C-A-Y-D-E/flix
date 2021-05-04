@@ -22,6 +22,13 @@ module.exports = {
       red: colors.rose,
       yellow: colors.amber,
     },
+    fontFamily: {
+      heading: ["Rubik", "sans-serif"],
+    },
+    container: {
+      center: true,
+      padding: "1rem",
+    },
   },
   variants: {
     extend: {},

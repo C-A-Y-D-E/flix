@@ -3,13 +3,13 @@ import CustomDropDown from "components/shared/CustomDropDown";
 const CategoryPanel = () => {
   const [category, setCategory] = useState("Popular");
   return (
-    <div className="flex p-5 mt-6 items-center justify-between bg-primary-light rounded-2xl mx-4 flex-wrap md:flex-nowrap space-y-2 sm:space-y-0">
+    <div className="flex p-5 mt-6 items-center justify-between bg-primary-light rounded-2xl  flex-wrap md:flex-nowrap space-y-2 sm:space-y-0">
       <div className="flex text-sm  md:text-base">
         <CustomDropDown />
         <CustomDropDown />
       </div>
 
-      <div className="bg-primary-dark rounded-3xl text-sm md:text-base">
+      <div className="bg-primary-dark w-full md:w-auto rounded-3xl text-sm md:text-base">
         <ul className="flex gap-6 p-4 ">
           <li onClick={() => setCategory("Popular")}>
             <span
@@ -19,7 +19,7 @@ const CategoryPanel = () => {
                   : ""
               } p-2 cursor-pointer transition duration-400 select-none`}
             >
-              Popular
+              Newest
             </span>
           </li>
           <li onClick={() => setCategory("Most")}>
@@ -30,7 +30,7 @@ const CategoryPanel = () => {
                   : ""
               } p-2 cursor-pointer transition duration-400 select-none`}
             >
-              Most Watched
+              Featured
             </span>
           </li>
           <li onClick={() => setCategory("Recent")}>
@@ -41,7 +41,7 @@ const CategoryPanel = () => {
                   : ""
               } p-2 cursor-pointer transition duration-400 select-none`}
             >
-              Recent
+              Popular
             </span>
           </li>
         </ul>
